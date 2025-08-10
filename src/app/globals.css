@@ -12,7 +12,7 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
@@ -23,4 +23,22 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.trapezoid {
+    background-color: #ccc; 
+    clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+}
+
+.blueKeys{
+  background-color: #007bff;
+}
+.yellowKeys{
+  background-color: #ffc107;
+}
+
+.trapezoid-neck {
+    background-color: #927a7a; 
+    clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+
 }

@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
   <>
-  <div className="relative w-full h-screen flex flex-col items-center justify-center bg-gray-100">
+  <div className=" w-full h-screen flex flex-col items-center justify-center bg-gray-100 ">
 
         {/* Modern Television  */}
         <div className="select-none ">          
@@ -41,85 +41,122 @@ export default function Home() {
 
           </div>
         </div>
+        {/* Keys Plate */}
+        <div>
+          <div className="relative w-160 h-30  border-black justify-start items-center flex flex-col">
+            {/* Neck hole */}
+            <div className="absolute z-2 w- bg-black h-1" />
+            <div className="z-1 absolute w-100 bg-black h-30 border-t-4 border-r-4 rounded-tr-full border-l-4 rounded-tl-full border-yellow-400" />
+            <div className="z-0 absolute  w-150 bg-black h-30 border-t-4 border-r-4 rounded-tr-full border-l-4 rounded-tl-full border-yellow-400" />
+            <div className="absolute z-1 trapezoid-neck h-20 w-80 flex items-center justify-center">
+                <div className="w-50 border h-10 rounded-full bg-black" ></div>
+            </div>
+            {/* Keys */}
+            <div className="absolute z-2 h-30  w-full flex justify-center items-end">
+              <div className="z-2 h-10 w-100 trapezoid border-t-4 border-r-4 rounded-tr-full border-l-4 rounded-tl-full border-yellow-400 bg-gray-800 flex flex-col items-center ">
+                {/* Container */}
+                <div className="flex justify-center mt-1 gap-4">
+                  {/* First Column */}
+                  <div className="flex gap-1 flex-col  w-5 items-center ">
+                    <div className="border border-white border-l-3 border-b-3 border-r-3 yellowKeys w-5 h-2 rounded-[100%]">
+                    </div>
+                    <div className="mr-6 border border-white border-l-3 border-b-3 border-r-3 yellowKeys w-5 h-2 rounded-[100%]">
+                    </div>
+                  </div>
+                  {/* Second Column */}
+                  <div className="flex gap-[2px] flex-col w-5  items-center ">
+                    <div className="border border-white border-l-3 border-b-3 border-r-3 yellowKeys w-5 h-2 rounded-[100%]">
+                    </div>
+                    <div className="mr-4 border border-white border-l-3 border-b-3 border-r-3 yellowKeys w-5 h-2 rounded-[100%]">
+                    </div>
+                    <div className="mr-8 border border-white border-l-3 border-b-3 border-r-3 yellowKeys w-5 h-2 rounded-[100%]">
+                    </div>
+                  </div>
+                  {/* Third Column */}
+                  <div className="flex gap-[2px] flex-col w-5  items-center ">
+                    <div className="border border-white border-l-3 border-b-3 border-r-3 blueKeys w-5 h-2 rounded-[100%]">
+                    </div>
+                    <div className="mr-2 border border-white border-l-3 border-b-3 border-r-3 blueKeys w-5 h-2 rounded-[100%]">
+                    </div>
+                    <div className="mr-4 border border-white border-l-3 border-b-3 border-r-3 blueKeys w-5 h-2 rounded-[100%]">
+                    </div>
+                  </div>
+                  {/* Fourth Column */}
+                  <div className="flex gap-[2px] flex-col  w-5 items-center ">
+                    <div className="border border-white border-l-3 border-b-3 border-r-3 blueKeys w-5 h-2 rounded-[100%]">
+                    </div>
+                    <div className="border border-white border-l-3 border-b-3 border-r-3 blueKeys w-5 h-2 rounded-[100%]">
+                    </div>
+                    {/* keyhole */}
+                    <div className="border border-gray-500 border-l-3 border-b-3 border-r-3 bg-gray-30 w-5 h-2 rounded-[100%] flex justify-center items-center">
+                    </div>
+                  </div>
+                  {/* Fifth Column */}
+                  <div className="flex gap-[2px] flex-col w-5  items-center ">
+                    <div className="border border-white border-l-3 border-b-3 border-r-3 blueKeys w-5 h-2 rounded-[100%]">
+                    </div>
+                    <div className="ml-2 border border-white border-l-3 border-b-3 border-r-3 blueKeys w-5 h-2 rounded-[100%]">
+                    </div>
+                    <div className="ml-4 border border-white border-l-3 border-b-3 border-r-3 blueKeys w-5 h-2 rounded-[100%]">
+                    </div>
+                  </div>
+                  {/* Sixth Column */}
+                  <div className="flex gap-[2px] flex-col w-5  items-center ">
+                    <div className="border border-white border-l-3 border-b-3 border-r-3 yellowKeys w-5 h-2 rounded-[100%]">
+                    </div>
+                    <div className="ml-4 border border-white border-l-3 border-b-3 border-r-3 yellowKeys w-5 h-2 rounded-[100%]">
+                    </div>
+                    <div className="ml-8 border border-white border-l-3 border-b-3 border-r-3 yellowKeys w-5 h-2 rounded-[100%]">
+                    </div>
+                  </div>
+                  {/* Seventh Column */}
+                  <div className="flex gap-[2px] flex-col w-5  items-center ">
+                    <div className="border border-white border-l-3 border-b-3 border-r-3 yellowKeys w-5 h-2 rounded-[100%]">
+                    </div>
+                    <div className=" ml-6 border border-white border-l-3 border-b-3 border-r-3 yellowKeys w-5 h-2 rounded-[100%]">
+                    </div>
+                  </div>
 
-        {/* Base */}
-
-        <div className="relative w-160 h-50  border-black justify-start items-center flex flex-col">
-          {/* Neck hole */}
-
-          <div className="absolute z-2 w- bg-black h-1" />
-          <div className="z-1 absolute w-100 bg-black h-30 border-t-4 border-r-4 rounded-tr-full border-l-4 rounded-tl-full border-yellow-400" />
-          <div className="z-0 absolute  w-150 bg-black h-30 border-t-4 border-r-4 rounded-tr-full border-l-4 rounded-tl-full border-yellow-400" />
-          <div className="absolute z-1 trapezoid-neck h-20 w-80 "></div>
-          {/* Keys */}
-          <div className="absolute z-2 h-30  w-full flex justify-center items-end">
-            <div className="z-2 h-10 w-100 trapezoid border-t-4 border-r-4 rounded-tr-full border-l-4 rounded-tl-full border-yellow-400 bg-gray-800 flex flex-col items-center ">
-              {/* Container */}
-              <div className="flex justify-center mt-1 gap-4">
-                {/* First Column */}
-                <div className="flex gap-1 flex-col  w-5 items-center ">
-                  <div className="border border-white border-l-3 border-b-3 border-r-3 yellowKeys w-5 h-2 rounded-[100%]">
-                  </div>
-                  <div className="mr-6 border border-white border-l-3 border-b-3 border-r-3 yellowKeys w-5 h-2 rounded-[100%]">
-                  </div>
                 </div>
-                {/* Second Column */}
-                <div className="flex gap-[2px] flex-col w-5  items-center ">
-                  <div className="border border-white border-l-3 border-b-3 border-r-3 yellowKeys w-5 h-2 rounded-[100%]">
-                  </div>
-                  <div className="mr-4 border border-white border-l-3 border-b-3 border-r-3 yellowKeys w-5 h-2 rounded-[100%]">
-                  </div>
-                  <div className="mr-8 border border-white border-l-3 border-b-3 border-r-3 yellowKeys w-5 h-2 rounded-[100%]">
-                  </div>
-                </div>
-                {/* Third Column */}
-                <div className="flex gap-[2px] flex-col w-5  items-center ">
-                  <div className="border border-white border-l-3 border-b-3 border-r-3 blueKeys w-5 h-2 rounded-[100%]">
-                  </div>
-                  <div className="mr-2 border border-white border-l-3 border-b-3 border-r-3 blueKeys w-5 h-2 rounded-[100%]">
-                  </div>
-                  <div className="mr-4 border border-white border-l-3 border-b-3 border-r-3 blueKeys w-5 h-2 rounded-[100%]">
-                  </div>
-                </div>
-                {/* Fourth Column */}
-                <div className="flex gap-[2px] flex-col  w-5 items-center ">
-                  <div className="border border-white border-l-3 border-b-3 border-r-3 blueKeys w-5 h-2 rounded-[100%]">
-                  </div>
-                  <div className="border border-white border-l-3 border-b-3 border-r-3 blueKeys w-5 h-2 rounded-[100%]">
-                  </div>
-                </div>
-                {/* Fifth Column */}
-                <div className="flex gap-[2px] flex-col w-5  items-center ">
-                  <div className="border border-white border-l-3 border-b-3 border-r-3 blueKeys w-5 h-2 rounded-[100%]">
-                  </div>
-                  <div className="ml-2 border border-white border-l-3 border-b-3 border-r-3 blueKeys w-5 h-2 rounded-[100%]">
-                  </div>
-                  <div className="ml-4 border border-white border-l-3 border-b-3 border-r-3 blueKeys w-5 h-2 rounded-[100%]">
-                  </div>
-                </div>
-                {/* Sixth Column */}
-                <div className="flex gap-[2px] flex-col w-5  items-center ">
-                  <div className="border border-white border-l-3 border-b-3 border-r-3 yellowKeys w-5 h-2 rounded-[100%]">
-                  </div>
-                  <div className="ml-4 border border-white border-l-3 border-b-3 border-r-3 yellowKeys w-5 h-2 rounded-[100%]">
-                  </div>
-                  <div className="ml-8 border border-white border-l-3 border-b-3 border-r-3 yellowKeys w-5 h-2 rounded-[100%]">
-                  </div>
-                </div>
-                {/* Seventh Column */}
-                <div className="flex gap-[2px] flex-col w-5  items-center ">
-                  <div className="border border-white border-l-3 border-b-3 border-r-3 yellowKeys w-5 h-2 rounded-[100%]">
-                  </div>
-                  <div className=" ml-6 border border-white border-l-3 border-b-3 border-r-3 yellowKeys w-5 h-2 rounded-[100%]">
-                  </div>
-                </div>
-
               </div>
             </div>
           </div>
-
         </div>
-        {/* <div className="z-0  w-150 bg-black h-32 " /> */}
+
+
+        {/* Base Body */}
+        
+        <div className="w-150 h-100 relative flex flex-col items-center ">
+          {/* Storage */}
+          <div className="absolute z-3 h-10 border-4 bg-gray-600 border-yellow-400  w-150 rounded-bl-full rounded-br-full">
+
+          </div>
+          {/* Left Speakers */}
+            <div className="absolute h-92 top-8 w-30 left-12 border-4 border-yellow-400  bg-gray-800 z-1"
+            style={{
+              clipPath: "polygon(0% 0%, 100% 25%, 100% 100%, 0% 85%)"
+            }}
+            >
+            </div>
+          {/* Right Speakers */}
+            <div className="absolute h-92 top-8 w-30 right-12 border-4 border-yellow-400  bg-gray-800 z-1"
+            style={{
+              clipPath: "polygon(0% 25%, 100% 0%, 100% 85%, 0% 100%)"
+            }}
+            >
+            </div>
+          {/* Casing */}
+          <div className="bg-gray-900 w-123 h-85 absolute">
+
+          </div>
+          {/* Body */}
+          <div className="z-2 relative bg-gray-700 h-100 w-70 border-t-4 border-b-4 border-yellow-400 ">
+            <div>
+
+            </div>
+          </div>
+        </div>
+
 
         {/* Footer */}        
         <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-gray-500 text-sm">

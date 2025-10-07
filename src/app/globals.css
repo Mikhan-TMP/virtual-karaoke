@@ -42,3 +42,12 @@ body {
     clip-path: polygon(10% 5%, 90% 5%, 100% 100%, 0% 100%);
 
 }
+
+
+.texture{
+  background-image: url('/texture_black.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
